@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao.Diary">
+    <update id="upddateUp">
+        update diary set diary_num_like = #{diary_num_like} where diary_id = #{diary_id}
+    </update>
+    <update id="upddateCollect">
+        update diary set diary_num_collect = #{diary_num_collect} where diary_id = #{diary_id}
+    </update>
+    <update id="updatenum">
+        update diary set diary_num_comment = #{diary_num_comment} where diary_id = #{diary_id}
+    </update>
+</mapper>

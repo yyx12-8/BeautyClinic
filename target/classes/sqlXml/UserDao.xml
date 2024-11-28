@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.UserDao">
+    <insert id="insert">
+        insert into user(username,usernickname,uservia,usersex,usersignature,usertimer,token)
+        values (#{username},#{usernickname},#{uservia},#{usersex},#{usersignature},#{usertimer},#{token})
+    </insert>
+    <update id="update">
+        update user set token = #{token} where id= #{id}
+    </update>
+
+    <update id="updateByName" parameterType="user">
+        update user
+        set uservia = #{uservia}, usernickname = #{usernickname}, usersex = #{usersex},
+            usertimer = #{usertimer}, usersignature = #{usersignature}
+        where username= #{username}
+    </update>
+</mapper>

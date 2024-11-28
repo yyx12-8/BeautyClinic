@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao.CouponsDao">
+    <resultMap id="Couponslist" type="Coupons">
+        <id property="id" column="cou_id"></id>
+    </resultMap>
+    <select id="getAllByCon" resultMap="Couponslist">
+        select m.*,u.username,u.token from mycoupons as m left join user as u on m.user_id = u.id where username = #{username}
+    </select>
+
+    <insert id="addCoupons">
+        insert into mycoupons(
+            type,denomination,money_off,coupons_type,due_time,status,user_id
+        )values
+        <foreach collection="list" item="Coupons" index="index" separator=",">
+            (
+            #{Coupons.type},
+            #{Coupons.denomination},
+            #{Coupons.money_off},
+            #{Coupons.coupons_type},
+            #{Coupons.due_time},
+            #{Coupons.status},
+            #{id}
+            )
+        </foreach>
+    </insert>
+</mapper>

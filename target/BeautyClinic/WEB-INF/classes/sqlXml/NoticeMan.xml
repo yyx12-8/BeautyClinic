@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao.NoticeMan">
+    <update id="update">
+        update noticeman set isup = #{isup}, iscollect = #{iscollect} where username = #{username} and no_id = #{
+        no_id
+        }
+    </update>
+    <update id="updatecol">
+        update noticeman set iscollect = #{iscollect} where username = #{username} and no_id = #{no_id}
+    </update>
+    <update id="updateup">
+        update noticeman set isup = #{isup} where username = #{username} and no_id = #{no_id}
+    </update>
+    <insert id="add">
+        insert into noticeman(username,no_id,notice_user,notice_via,notice_content,isup,iscollect)
+            values(#{username},#{no_id},#{notice_user},#{notice_via},#{notice_content},#{isup},#{iscollect})
+    </insert>
+    <update id="updateperson">
+        update noticeman set notice_user = #{notice_user},notice_via = #{notice_via},notice_content = #{notice_content} where username = #{username} and no_id = #{no_id}
+    </update>
+</mapper>

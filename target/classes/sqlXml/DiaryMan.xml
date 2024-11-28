@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao.DiaryMan">
+    <update id="update">
+        update comment set isup = #{isup}, iscollect = #{iscollect} where username = #{username} and diary_id = #{
+        diary_id
+        }
+    </update>
+    <update id="updatecol">
+        update comment set iscollect = #{iscollect} where username = #{username} and diary_id = #{diary_id}
+    </update>
+    <update id="updateup">
+        update comment set isup = #{isup} where username = #{username} and diary_id = #{diary_id}
+    </update>
+    <insert id="add">
+        insert into comment(diary_comment_user,diary_comment_via,diary_comment_content,diary_id,username,isup,iscollect)
+            values(#{diary_comment_user},#{diary_comment_via},#{diary_comment_content},#{diary_id},#{username},#{isup},#{iscollect})
+    </insert>
+    <update id="updateperson">
+        update comment set diary_comment_user = #{diary_comment_user},diary_comment_via = #{diary_comment_via},diary_comment_content = #{diary_comment_content} where username = #{username} and diary_id = #{diary_id}
+    </update>
+</mapper>

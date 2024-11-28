@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BeautyClinic:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c483814f-f035-4344-9e4d-16528b855c72" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/maven/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bDWbSIbM9V5VuzROxgk4IaqDBX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/千锋教育/联合4组后端-小懒猪记账(1)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.30">
+    <configuration name="CommonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BeautyClinic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BeautyClinic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BeautyClinic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="User" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addCoupons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BeautyClinic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="addCoupons" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addCoupons.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BeautyClinic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="addCoupons" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="BeautyClinic:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BeautyClinic" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BeautyClinic" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8961" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BeautyClinic:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CommonTest" />
+      <item itemvalue="JUnit.CommonTest.test" />
+      <item itemvalue="JUnit.addCoupons.test" />
+      <item itemvalue="JUnit.addCoupons" />
+      <item itemvalue="JUnit.User.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.30" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.User.test" />
+        <item itemvalue="JUnit.addCoupons.test" />
+        <item itemvalue="JUnit.addCoupons" />
+        <item itemvalue="JUnit.CommonTest.test" />
+        <item itemvalue="JUnit.CommonTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c483814f-f035-4344-9e4d-16528b855c72" name="Default Changelist" comment="" />
+      <created>1588167215173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588167215173</updated>
+      <workItem from="1588167218023" duration="692000" />
+      <workItem from="1588508442980" duration="2922000" />
+      <workItem from="1588562434327" duration="23126000" />
+      <workItem from="1588599871245" duration="6393000" />
+      <workItem from="1588671136291" duration="8386000" />
+      <workItem from="1588769983769" duration="8514000" />
+      <workItem from="1588814068047" duration="825000" />
+      <workItem from="1588815428209" duration="807000" />
+      <workItem from="1588853166760" duration="1784000" />
+      <workItem from="1588859028458" duration="5238000" />
+      <workItem from="1588938324385" duration="10527000" />
+      <workItem from="1588949919437" duration="626000" />
+      <workItem from="1588988186650" duration="4941000" />
+      <workItem from="1589020951134" duration="1360000" />
+      <workItem from="1589022547490" duration="1205000" />
+      <workItem from="1589026679262" duration="4300000" />
+      <workItem from="1589111945518" duration="7342000" />
+      <workItem from="1589161169608" duration="13184000" />
+      <workItem from="1589248754958" duration="35702000" />
+      <workItem from="1589369815879" duration="14730000" />
+      <workItem from="1589428690439" duration="28210000" />
+      <workItem from="1589512225974" duration="13510000" />
+      <workItem from="1589598107448" duration="14087000" />
+      <workItem from="1589683580884" duration="20274000" />
+      <workItem from="1589811544360" duration="1038000" />
+      <workItem from="1589853329943" duration="17218000" />
+      <workItem from="1589938551729" duration="3996000" />
+      <workItem from="1590039883258" duration="7664000" />
+      <workItem from="1590076121545" duration="595000" />
+      <workItem from="1590133488451" duration="1213000" />
+      <workItem from="1590198853591" duration="8971000" />
+      <workItem from="1590293035279" duration="2135000" />
+      <workItem from="1590410033444" duration="4110000" />
+      <workItem from="1590483632705" duration="964000" />
+      <workItem from="1590484680401" duration="843000" />
+      <workItem from="1590575806257" duration="679000" />
+      <workItem from="1590596138278" duration="17000" />
+      <workItem from="1590629404881" duration="450000" />
+      <workItem from="1590630168616" duration="599000" />
+      <workItem from="1590668875447" duration="108000" />
+      <workItem from="1590677351097" duration="366000" />
+      <workItem from="1590756497325" duration="2722000" />
+      <workItem from="1590824033360" duration="627000" />
+      <workItem from="1591270426657" duration="185000" />
+      <workItem from="1591346699909" duration="192000" />
+      <workItem from="1682387526430" duration="77000" />
+      <workItem from="1684480696065" duration="1237000" />
+      <workItem from="1684809913351" duration="595000" />
+      <workItem from="1685067977793" duration="2025000" />
+      <workItem from="1685329245844" duration="717000" />
+      <workItem from="1686015131576" duration="99000" />
+      <workItem from="1686536863937" duration="51000" />
+      <workItem from="1691131581861" duration="462000" />
+      <workItem from="1691551223918" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controller/AllCoupons.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
